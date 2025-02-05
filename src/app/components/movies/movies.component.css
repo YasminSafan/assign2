@@ -1,0 +1,23 @@
+/* استخدام Grid لتنظيم الـ Cards */
+.row {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* ضبط الأعمدة حسب حجم الشاشة */
+    gap: 1rem; /* تباعد بين الأعمدة */
+  }
+  
+  /* تخصيص الـ Card لتتناسب مع التنسيق */
+  .card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+  
+  /* تخصيص الصورة داخل الـ Card */
+  .card-img-top {
+    width: 100%;
+    height: auto;
+  }
+  
+  
+  
+  
